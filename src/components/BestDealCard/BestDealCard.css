@@ -1,0 +1,17 @@
+.BestDealCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 5px;
+}
+.BestDealCard img{
+    border-radius: 5px 0 0 5px;
+    height: 130px;
+    width: 240px;
+}
+.BestDealCard h3 {
+    font-size: medium !important;
+  }
+  .BestDealCard h4 {
+    font-size: small !important;
+  }

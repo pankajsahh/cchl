@@ -1,0 +1,16 @@
+.sliderContainer {
+  background-color: #fff;
+  box-shadow: 0 0 3px grey;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 700;
+  padding: 25px 50px;
+}
+
+.sliderContainer > img {
+  display: block;
+  height: 190px;
+  margin: auto;
+  width: 140px;
+}

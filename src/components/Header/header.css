@@ -1,0 +1,20 @@
+.header {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 3px grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5%;
+  position: sticky;
+  top: 0;
+  z-index: 10001;
+}
+.header ul {
+  display: flex;
+  gap: 30px;
+}
+.header ul > li {
+  cursor: pointer;
+  list-style: none;
+  transition: 0.3s linear;
+}

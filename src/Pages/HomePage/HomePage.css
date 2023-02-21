@@ -1,0 +1,118 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://spaalon.com/images/Headerfirst.png);
+  background-size: cover;
+  height: 180px;
+  padding: 10% 0 20%;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Banner h1 {
+  font-size: 3rem;
+  line-height: 80%;
+}
+.searchSection {
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 60%;
+}
+.searchSection div > input,
+searchSection div > span {
+  border: none;
+  padding: 4%;
+  background: transparent;
+}
+
+.trendingSection {
+  background-color: #f4f4f4;
+  text-align: center;
+  line-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.servicesContainer {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 3px solid grey;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-evenly;
+  left: 10%;
+  margin: auto;
+  padding: 1%;
+  position: absolute;
+  top: -80px;
+  width: 80%;
+}
+.TrendingItems {
+  width: 80%;
+}
+.popularSpa {
+  /* background-color: #f4f4f4; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 10px;
+}
+.popularSpa h1 {
+  font-size: large !important;
+}
+.popularSpa h2 {
+  font-size: medium !important;
+}
+.banner2 {
+  padding: 5%;
+}
+
+.bannerimageContainer {
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://spaalon.com/images/Headersecond.png);
+  background-color: #fff;
+  background-size: cover;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  height: 350px;
+  margin: auto;
+  padding: 5%;
+  text-align: left;
+  width: 80%;
+}
+.BestDealsBox {
+  width: 80%;
+  margin: auto;
+}
+.BestDealsBox h2 {
+  font-size: large !important;
+}
+.BestDealsBox h3 {
+  font-size: medium !important;
+  
+}
+.bestDeals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
