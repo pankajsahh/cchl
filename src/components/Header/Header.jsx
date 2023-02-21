@@ -11,12 +11,13 @@ function Header() {
       />
 
       <ul>
-        <li>Hair</li>
-        <li>Body</li>
-        <li>Spa</li>
-        <li>Nail</li>
-        <li>Face</li>
-        <li>
+        <li className="web">Hair</li>
+        <li className="web">Body</li>
+        <li className="web">Spa</li>
+        <li className="web">Nail</li>
+        <li className="web">Face</li>
+        <li className="mobile"><i class="bi text-dark py-2 bi-list"></i></li>
+        <li >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

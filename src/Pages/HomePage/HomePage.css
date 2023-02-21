@@ -45,8 +45,8 @@ searchSection div > span {
   padding-top: 80px;
   margin: 10px;
 }
-.services{
-  margin: bottom 15px ; 
+.services {
+  margin: bottom 15px;
 }
 .servicesContainer {
   align-items: center;
@@ -111,7 +111,6 @@ searchSection div > span {
 }
 .BestDealsBox h3 {
   font-size: medium !important;
-  
 }
 .bestDeals {
   display: flex;
@@ -120,7 +119,7 @@ searchSection div > span {
 }
 
 @media only screen and (max-width: 800px) {
-  .Banner{
+  .Banner {
     padding: 180px 0;
   }
   .bannerimageContainer {
@@ -130,15 +129,15 @@ searchSection div > span {
     width: 95%;
     margin: auto;
   }
-  .servicesContainer{
+  .servicesContainer {
     position: static;
     flex-wrap: wrap;
     gap: 30px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 700;
   }
 
-  .trendingSection{
+  .trendingSection {
     padding-top: 20px;
   }
 
@@ -152,15 +151,41 @@ searchSection div > span {
     gap: 10px;
   }
 
-  .searchSection{
+  .searchSection {
     flex-wrap: wrap;
     gap: 10px;
   }
-  .mobileRounded{
+  .mobileRounded {
     border-radius: 5px;
   }
-  .servicesContainer, .TrendingItems {
-  width: 95%;
+  .servicesContainer,
+  .TrendingItems {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .bannerimageContainer {
+    width: 95%;
+  }
+  .BestDealsBox {
+    width: 95%;
+    margin: auto;
+  }
+  .servicesContainer {
+    position: static;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 
-} 
+  .trendingSection {
+    padding-top: 20px;
+  }
+  
+
+
+
+}

@@ -18,3 +18,16 @@
   list-style: none;
   transition: 0.3s linear;
 }
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: initial;
+    color: black;
+  }
+}
