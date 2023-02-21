@@ -36,14 +36,14 @@ function HomePage() {
       <div className="Banner">
         <h1>Discover &amp; Book</h1>
         <h2>Looking for Best Spa &amp; Salon Near you ?</h2>
-        <div className="searchSection flex-wrap gap-1">
-          <InputGroup className="bg-white rounded">
+        <div className="searchSection rounded">
+          <InputGroup className="bg-white mobileRounded ">
             <Input placeholder="What are you looking for" />
             <InputGroupText className="border-0 bg-transparent">
               <i className="bi bi-search"></i>
             </InputGroupText>
           </InputGroup>
-          <div className="d-flex bg-white rounded flex-fill">
+          <div className="d-flex mobileRounded flex-fill bg-white ">
             <InputGroup >
               <Input  placeholder="Enter your Location" />
               <InputGroupText className="border-0 bg-transparent">

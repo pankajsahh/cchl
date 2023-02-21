@@ -37,7 +37,6 @@ searchSection div > span {
 .trendingSection {
   background-color: #f4f4f4;
   text-align: center;
-  line-height: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -124,8 +123,13 @@ searchSection div > span {
   .Banner{
     padding: 180px 0;
   }
- 
-
+  .bannerimageContainer {
+    width: 95%;
+  }
+  .BestDealsBox {
+    width: 95%;
+    margin: auto;
+  }
   .servicesContainer{
     position: static;
     flex-wrap: wrap;
@@ -147,4 +151,16 @@ searchSection div > span {
     justify-content: baseline;
     gap: 10px;
   }
+
+  .searchSection{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .mobileRounded{
+    border-radius: 5px;
+  }
+  .servicesContainer, .TrendingItems {
+  width: 95%;
+  }
+
 } 
