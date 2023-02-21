@@ -36,22 +36,24 @@ function HomePage() {
       <div className="Banner">
         <h1>Discover &amp; Book</h1>
         <h2>Looking for Best Spa &amp; Salon Near you ?</h2>
-        <div className="searchSection">
-          <InputGroup>
+        <div className="searchSection flex-wrap gap-1">
+          <InputGroup className="bg-white rounded">
             <Input placeholder="What are you looking for" />
             <InputGroupText className="border-0 bg-transparent">
               <i className="bi bi-search"></i>
             </InputGroupText>
           </InputGroup>
-          <InputGroup>
-            <Input placeholder="Enter your Location" />
-            <InputGroupText className="border-0 bg-transparent">
-              <i className="bi bi-geo-alt-fill"></i>
-            </InputGroupText>
-          </InputGroup>
-          <Button className="rounded-1 m-1 bg-danger border-0 px-4">
-            Search
-          </Button>
+          <div className="d-flex bg-white rounded flex-fill">
+            <InputGroup >
+              <Input  placeholder="Enter your Location" />
+              <InputGroupText className="border-0 bg-transparent">
+                <i className="bi bi-geo-alt-fill"></i>
+              </InputGroupText>
+            </InputGroup>
+            <Button className="rounded-1 m-1 bg-danger border-0 px-4">
+              Search
+            </Button>
+          </div>
         </div>
       </div>
       <div className="trendingSection ">

@@ -25,7 +25,6 @@
 .searchSection {
   display: flex;
   justify-content: center;
-  background: white;
   width: 60%;
 }
 .searchSection div > input,
@@ -45,8 +44,11 @@ searchSection div > span {
   align-items: center;
   justify-content: center;
   padding-top: 80px;
+  margin: 10px;
 }
-
+.services{
+  margin: bottom 15px ; 
+}
 .servicesContainer {
   align-items: center;
   background-color: #fff;
@@ -61,6 +63,7 @@ searchSection div > span {
   position: absolute;
   top: -80px;
   width: 80%;
+  gap: 15px;
 }
 .TrendingItems {
   width: 80%;
@@ -114,5 +117,34 @@ searchSection div > span {
 .bestDeals {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: baseline;
 }
+
+@media only screen and (max-width: 800px) {
+  .Banner{
+    padding: 180px 0;
+  }
+ 
+
+  .servicesContainer{
+    position: static;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: .8rem;
+    font-weight: 700;
+  }
+
+  .trendingSection{
+    padding-top: 20px;
+  }
+
+  .popularSpa {
+    /* background-color: #f4f4f4; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+  }
+} 
