@@ -15,8 +15,11 @@
   margin: auto;
   width: 140px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  .sliderContainer {
 
+    padding: 15px 40px;
+  }
   .sliderContainer > img {
     display: block;
     height: 130px;
